@@ -7,8 +7,6 @@ tags : [jsf, primefaces, tutorial]
 published: true
 ---
 
-{% include JB/setup %}
-
 ##ou comment créer un éditeur de formation de football
 
 Depuis début 2011 je me suis mis à JSF2, si décrié par certain, et j'ai découvert [Primefaces](http://www.primefaces.org).

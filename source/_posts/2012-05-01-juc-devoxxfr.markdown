@@ -7,8 +7,6 @@ tags : [jenkins, devoxx, jug]
 published: true
 ---
 
-{% include JB/setup %}
-
 ##et dire qu'il y a deux ans je ne savais pas ce qu'était un JUG...
 
 Avant de rentrer dans le vif du sujet et de faire un long compte-rendu de mes toutes premières conférences, je suis
