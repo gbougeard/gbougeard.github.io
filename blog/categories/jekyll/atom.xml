@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Jekyll | Gbougeard's Blog]]></title>
+  <link href="http://gbougeard.github.com/blog/categories/jekyll/atom.xml" rel="self"/>
+  <link href="http://gbougeard.github.com/"/>
+  <updated>2014-03-25T22:02:05+01:00</updated>
+  <id>http://gbougeard.github.com/</id>
+  <author>
+    <name><![CDATA[Greg Bougeard]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Geekerie ...]]></title>
+    <link href="http://gbougeard.github.com/blog/2011/07/27/premier-post/"/>
+    <updated>2011-07-27T00:00:00+02:00</updated>
+    <id>http://gbougeard.github.com/blog/2011/07/27/premier-post</id>
+    <content type="html"><![CDATA[<h2>mon blog sous github</h2>
+
+<p>Voil&agrave;, j'ai suivi cet <a href="http://k33g.github.com/2011/07/26/JEKILL-ON-GITHUB.html">excellent tutorial</a> et j'ai donc cr&eacute;&eacute; mon blog sous github comme tout bon geek qui se respecte :D</p>
+]]></content>
+  </entry>
+  
+</feed>

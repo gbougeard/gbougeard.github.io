@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: api | Gbougeard's Blog]]></title>
+  <link href="http://gbougeard.github.com/blog/categories/api/atom.xml" rel="self"/>
+  <link href="http://gbougeard.github.com/"/>
+  <updated>2014-03-25T22:02:05+01:00</updated>
+  <id>http://gbougeard.github.com/</id>
+  <author>
+    <name><![CDATA[Greg Bougeard]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Documenter une API REST grace a RAML]]></title>
+    <link href="http://gbougeard.github.com/blog/2014/03/14/documenter-une-api-rest-grace-a-raml/"/>
+    <updated>2014-03-14T21:36:00+01:00</updated>
+    <id>http://gbougeard.github.com/blog/2014/03/14/documenter-une-api-rest-grace-a-raml</id>
+    <content type="html"><![CDATA[<p>Avoir une API REST c'est cool, avoir une API REST documentée c'est encore mieux!</p>
+
+<h3>Quelques exemples de documentation d'API REST</h3>
+
+<ul>
+<li><a href="http://developer.ean.com/docs/hotel-list/">Expedia</a> : plain text, pas super pratique</li>
+<li><a href="https://dev.twitter.com/docs/api/1.1">Twitter</a> : c'est déjà mieux</li>
+<li><a href="http://developer.marvel.com/docs">Marvel</a> : waouh!</li>
+</ul>
+
+
+<p>A mon humble avis la doc la plus lisible et mieux organisée est celle de l'API de Marvel.</p>
+
+<p>Elle a été générée grâce à <a href="https://helloreverb.com/developers/swagger">Swagger</a>.
+Swagger permet pour une application Java et plus particulièrement une application JAX-RS, de générer cette documentation
+et ceci grâce à des annotations ( <a href="https://github.com/kongchen/swagger-maven-example/blob/master/src/main/java/com/foo/bar/api/car/CarResourceV1.java">exemple</a> ).
+Il existe aussi un <a href="https://github.com/wordnik/swagger-core/tree/master/modules/swagger-play2">module Swagger pour Play2</a> qui utilise lui aussi des annotations.</p>
+
+<p>C'est bien sympa tout ca, ca génère tout tout seul mais c'est tout de même super intrusif et ca "pollue" quelque peu notre code.
+Il y a presque plus d'annotations Swagger que de code...</p>
+
+<h2>RAML</h2>
+
+<p><a href="http://www.raml.org">RAML</a> ou RESTful API Modeling Language, est une initiative de <a href="http://www.mulesoft.com">Mulesoft</a> mais pas <a href="http://raml.org/about.html#six">que</a>.
+L'idée de RAML ce n'est pas de générer de la doc à partir de code existant mais de définir un language de description d'APIs REST.
+Il se base sur <a href="http://www.yaml.org">YAML</a> et a donc sa propre <a href="http://raml.org/spec.html">specification</a>.</p>
+
+<p>RAML.org fournit différents <a href="http://raml.org/projects.html">outils</a> open source :</p>
+
+<h3>API Designer</h3>
+
+<p>Un editeur développé en AngularJS permettant de créer des fichiers RAML. L'éditeur a la coloration syntaxique, l'auto-complétion ainsi que la vérification de la syntaxe RAML.
+En attenant un plugin équivalent pour votre IDE préféré, cela reste le meilleur outil pour éditer un fichier RAML.
+Il utilise lui même l'API Console pour faire la prévisualisation des fichiers édités.
+Pour l'utiliser localement, il suffit de cloner le <a href="https://github.com/mulesoft/api-designer">repo github</a> puis de lancer l'application grâce à grunt.
+Personnellement je préfère utiliser <a href="http://api-portal.anypoint.mulesoft.com/raml/api-designer">l'éditeur en ligne</a> car en local je n'ai pas trouvé comment persister les fichiers :)</p>
+
+<h3>API Console</h3>
+
+<p>Une directive AngularJS permettant de faire un rendu web d'un fichier RAML donné.</p>
+
+<h3>JAX-RS Codegen</h3>
+
+<p>Un générateur d'application JAX-RS a partir d'un fichier RAML.</p>
+
+<h3>Un exemple concret</h3>
+
+<p>Afin de se rendre bien compte de la syntaxe et des possibilités offertes par RAML, voilà un exemple concret de <a href="http://api-portal.anypoint.mulesoft.com/github/api/github-api-v3/docs/raml">doc générée pour l'API de Github</a> et le <a href="http://api-portal.anypoint.mulesoft.com/github/api/github-api-v3/github-api-v3.raml">fichier RAML source</a>.</p>
+
+<p>RAML permet de définir des traits, des type de resources (dans l'exemple de l'API Github il y a par exemple le resourceType <em>item</em> pour les URI vers une ressource unique et <em>collection</em> pour les listes)
+ce qui permet d'éviter de se répéter mais aussi de bien catégoriser et organiser ses ressources.</p>
+
+<p>Pour les réponses, on peut spécifier directement dans le fichier RAML la structure d'un objet json au format json-schema dans le cadre d'une réponse de type application/json mais on peut aussi
+inclure (gradce à la syntaxe !include:myfile ) un fichier json ou une xsd (pour une réponse de type application/xml). La même chose est possible pour les exemples de réponses.
+Ce qu'il faut savoir avec les exemples, c'est qu'ils vont être les valeurs par défaut dans l'onglet <em>Try it</em>.</p>
+
+<p>On pourrait alors imaginer, dans le cas où l'ont veut documenter une application existante (je rappelle que l'idée de base de RAML c'est de décrire d'abord l'API puis de générer le code à partir de cette spec),
+pour une application Play2 Scala, un plugin SBT permettant de générer des fichiers json décrivant au format json-schema tous les Readers/Writers définis dans l'application.
+Ca serait toujours plus pratique que devoir les écrire "à la main".</p>
+
+<h2>Conclusion</h2>
+
+<p>REST API Designer est un métier d'avenir. Bien construire une API REST n'est pas forcément évident (cf <a href="https://groups.google.com/forum/#!topic/lescastcodeurs/Fjk7L9P3Jsg">ce thread</a>).
+Des outils comme ceux que proposent RAML (en particulier l'API Designer et l'API Console) me semblent plus qu'adaptés pour tous ceux qui doivent créer une API REST ou documenter une existante.</p>
+]]></content>
+  </entry>
+  
+</feed>
