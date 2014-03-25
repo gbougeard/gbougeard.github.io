@@ -45,6 +45,19 @@ Une directive AngularJS permettant de faire un rendu web d'un fichier RAML donn�
 ### JAX-RS Codegen
 Un générateur d'application JAX-RS a partir d'un fichier RAML.
 
+### Exemple
+
+<script src="https://gist.github.com/gbougeard/9772698.js"> </script>
+
+Voilà la description de la Foo REST API v1 accessible à l'url http://api.mydomain.com/v1 .
+
+Cette API décrit succintement des actions CRUD sur des *places*. On peut ainsi récupérer une liste de *places* potentiellement triée et paginée si on le souhaite (query parameters).
+L'API permet aussi de récupérer une *place* au format JSON en faisant un GET sur places/{id} (où id est un nombre), de modifier la *place* via un POST, ou de la supprimer avec un DELETE.
+
+Dans l'API Designer avec la preview :
+
+{% img http://gbougeard.github.com/images/ram_screenshot.png %}
+
 
 ### Un exemple concret
 Afin de se rendre bien compte de la syntaxe et des possibilités offertes par RAML, voilà un exemple concret de [doc générée pour l'API de Github](http://api-portal.anypoint.mulesoft.com/github/api/github-api-v3/docs/raml) et le [fichier RAML source](http://api-portal.anypoint.mulesoft.com/github/api/github-api-v3/github-api-v3.raml).
@@ -53,7 +66,7 @@ RAML permet de définir des traits, des type de resources (dans l'exemple de l'A
 ce qui permet d'éviter de se répéter mais aussi de bien catégoriser et organiser ses ressources.
 
 Pour les réponses, on peut spécifier directement dans le fichier RAML la structure d'un objet json au format json-schema dans le cadre d'une réponse de type application/json mais on peut aussi
-inclure (gradce à la syntaxe !include:myfile ) un fichier json ou une xsd (pour une réponse de type application/xml). La même chose est possible pour les exemples de réponses.
+inclure (grace à la syntaxe *!include:myfile* ) un fichier json ou une xsd (pour une réponse de type *application/xml*). La même chose est possible pour les exemples de réponses.
 Ce qu'il faut savoir avec les exemples, c'est qu'ils vont être les valeurs par défaut dans l'onglet *Try it*.
 
 On pourrait alors imaginer, dans le cas où l'ont veut documenter une application existante (je rappelle que l'idée de base de RAML c'est de décrire d'abord l'API puis de générer le code à partir de cette spec),
