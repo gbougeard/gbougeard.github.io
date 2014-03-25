@@ -56,7 +56,7 @@ L'API permet aussi de récupérer une *place* au format JSON en faisant un GET s
 
 Dans l'API Designer avec la preview :
 
-{% img http://gbougeard.github.com/images/ram_screenshot.png %}
+{% img left /images/raml_screenshot.png 350 350 'image' 'images' %}
 
 
 ### Un exemple concret
