@@ -2,28 +2,28 @@
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
         <loc>http://gbougeard.github.com/blog/2011/07/27/premier-post/</loc>
-        <lastmod>2014-03-25T22:08:42+01:00</lastmod>
+        <lastmod>2014-03-25T22:13:43+01:00</lastmod>
     </url>
     <url>
         <loc>http://gbougeard.github.com/blog/2011/09/05/drag-an-drop-avec-primefaces/</loc>
-        <lastmod>2014-03-25T22:08:42+01:00</lastmod>
+        <lastmod>2014-03-25T22:13:43+01:00</lastmod>
     </url>
     <url>
         <loc>http://gbougeard.github.com/blog/2012/05/01/juc-devoxxfr/</loc>
-        <lastmod>2014-03-25T22:08:42+01:00</lastmod>
+        <lastmod>2014-03-25T22:13:43+01:00</lastmod>
     </url>
     <url>
         <loc>
             http://gbougeard.github.com/blog/2014/03/14/documenter-une-api-rest-grace-a-raml/
         </loc>
-        <lastmod>2014-03-25T22:08:42+01:00</lastmod>
+        <lastmod>2014-03-25T22:13:43+01:00</lastmod>
     </url>
     <url>
         <loc>http://gbougeard.github.com/blog/archives/</loc>
-        <lastmod>2014-03-25T22:08:42+01:00</lastmod>
+        <lastmod>2014-03-25T22:13:43+01:00</lastmod>
     </url>
     <url>
         <loc>http://gbougeard.github.com/</loc>
-        <lastmod>2014-03-25T22:08:42+01:00</lastmod>
+        <lastmod>2014-03-25T22:13:43+01:00</lastmod>
     </url>
 </urlset>
