@@ -157,6 +157,10 @@ Personnellement je préfère utiliser <a href="http://api-portal.anypoint.muleso
 <p>Cette API décrit succintement des actions CRUD sur des <em>places</em>. On peut ainsi récupérer une liste de <em>places</em> potentiellement triée et paginée si on le souhaite (query parameters).
 L&#8217;API permet aussi de récupérer une <em>place</em> au format JSON en faisant un GET sur places/{id} (où id est un nombre), de modifier la <em>place</em> via un POST, ou de la supprimer avec un DELETE.</p>
 
+<p>Dans l&#8217;API Designer avec la preview :</p>
+
+<p><img src="http://gbougeard.github.com/images/ram_screenshot.png"></p>
+
 <h3>Un exemple concret</h3>
 
 <p>Afin de se rendre bien compte de la syntaxe et des possibilités offertes par RAML, voilà un exemple concret de <a href="http://api-portal.anypoint.mulesoft.com/github/api/github-api-v3/docs/raml">doc générée pour l&#8217;API de Github</a> et le <a href="http://api-portal.anypoint.mulesoft.com/github/api/github-api-v3/github-api-v3.raml">fichier RAML source</a>.</p>
@@ -165,7 +169,7 @@ L&#8217;API permet aussi de récupérer une <em>place</em> au format JSON en fai
 ce qui permet d&#8217;éviter de se répéter mais aussi de bien catégoriser et organiser ses ressources.</p>
 
 <p>Pour les réponses, on peut spécifier directement dans le fichier RAML la structure d&#8217;un objet json au format json-schema dans le cadre d&#8217;une réponse de type application/json mais on peut aussi
-inclure (gradce à la syntaxe !include:myfile ) un fichier json ou une xsd (pour une réponse de type application/xml). La même chose est possible pour les exemples de réponses.
+inclure (grace à la syntaxe <em>!include:myfile</em> ) un fichier json ou une xsd (pour une réponse de type <em>application/xml</em>). La même chose est possible pour les exemples de réponses.
 Ce qu&#8217;il faut savoir avec les exemples, c&#8217;est qu&#8217;ils vont être les valeurs par défaut dans l&#8217;onglet <em>Try it</em>.</p>
 
 <p>On pourrait alors imaginer, dans le cas où l&#8217;ont veut documenter une application existante (je rappelle que l&#8217;idée de base de RAML c&#8217;est de décrire d&#8217;abord l&#8217;API puis de générer le code à partir de cette spec),
