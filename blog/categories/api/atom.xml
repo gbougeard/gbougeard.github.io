@@ -4,7 +4,7 @@
   <title><![CDATA[Category: api | Gbougeard's Blog]]></title>
   <link href="http://gbougeard.github.com/blog/categories/api/atom.xml" rel="self"/>
   <link href="http://gbougeard.github.com/"/>
-  <updated>2014-03-25T22:15:28+01:00</updated>
+  <updated>2014-03-25T23:31:15+01:00</updated>
   <id>http://gbougeard.github.com/</id>
   <author>
     <name><![CDATA[Greg Bougeard]]></name>
@@ -62,6 +62,16 @@ Personnellement je préfère utiliser <a href="http://api-portal.anypoint.muleso
 <h3>JAX-RS Codegen</h3>
 
 <p>Un générateur d'application JAX-RS a partir d'un fichier RAML.</p>
+
+<h3>Exemple</h3>
+
+<script src="https://gist.github.com/gbougeard/9772698.js"> </script>
+
+
+<p>Voilà la description de la Foo REST API v1 accessible à l'url http://api.mydomain.com/v1 .</p>
+
+<p>Cette API décrit succintement des actions CRUD sur des <em>places</em>. On peut ainsi récupérer une liste de <em>places</em> potentiellement triée et paginée si on le souhaite (query parameters).
+L'API permet aussi de récupérer une <em>place</em> au format JSON en faisant un GET sur places/{id} (où id est un nombre), de modifier la <em>place</em> via un POST, ou de la supprimer avec un DELETE.</p>
 
 <h3>Un exemple concret</h3>
 
