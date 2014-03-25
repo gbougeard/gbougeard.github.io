@@ -4,7 +4,7 @@
   <title><![CDATA[Gbougeard's Blog]]></title>
   <link href="http://gbougeard.github.com/atom.xml" rel="self"/>
   <link href="http://gbougeard.github.com/"/>
-  <updated>2014-03-25T23:48:03+01:00</updated>
+  <updated>2014-03-25T23:51:19+01:00</updated>
   <id>http://gbougeard.github.com/</id>
   <author>
     <name><![CDATA[Greg Bougeard]]></name>
@@ -75,7 +75,7 @@ L&#8217;API permet aussi de récupérer une <em>place</em> au format JSON en fai
 
 <p>Dans l&#8217;API Designer avec la preview :</p>
 
-<p><img src="http://gbougeard.github.com/images/ram_screenshot.png"></p>
+<p><img class="left" src="http://gbougeard.github.com/images/raml_screenshot.png" width="350" height="350" title="image" alt="images"></p>
 
 <h3>Un exemple concret</h3>
 
