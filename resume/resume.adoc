@@ -70,7 +70,7 @@ Technologies used::
 Languages and Specifications:: Scala, *Java EE 5* (BV, JPA, EJB, JAX-WS, JMS, Servlet, JSP), HTML, JavaScript, XML, Shell scripting, AsciiDoc
 Application Servers:: *JBoss AS 5.1*, Jetty, Apache HTTP Web Server
 Frameworks and Libraries:: Play! Framework 2, Slick, AngularJS, RESTEasy, Thucydides, Struts, MyBatis
-OS:: Linux (Ubuntu)
+OS:: GNU/Linux (Ubuntu)
 Databases:: MySql (Percona), Elasticsearch
 Software Engineering:: DevOps, Performance and Integration Testing, Continuous Integration
 Tools:: Maven 3, Jira, Git, Asciidoctor, Gatling, Jenkins, Sonar, Nexus, Kibana, JMX
@@ -95,7 +95,7 @@ Technical migration of a legacy app to a web app
 Technologies used:: Java EE 6, Glassfish 3, EJB3, JPA, JSF2, ArcGis, Apache Subversion
 Frameworks:: Primefaces
 Databases:: SqlServer
-OS:: Linux(CentOS)
+OS:: GNU/Linux(CentOS)
 
 '''
 
@@ -114,7 +114,7 @@ Position:: *Software Developer* +
 Technologies used:: JBoss AS 5, EJB3, Hibernate, ESB, SOA, Liferay, Apache Subversion
 Frameworks:: GWT-Ext, Spring,
 Databases:: MySql
-OS:: Linux(CentOS)
+OS:: GNULinux(CentOS)
 
 '''
 
@@ -161,7 +161,7 @@ Position:: *Software Developer* +
 Technologies used:: Java SE, PHP, Shell, Apache Subversion
 Frameworks:: GWT, ExtJS (Sencha)
 Databases:: Oracle 9/10, PL/SQL
-OS:: HP-UX, Linux(CentOS)
+OS:: HP-UX, GNU/Linux(CentOS)
 
 '''
 
@@ -190,7 +190,7 @@ OS:: Windows
 
 === Software Developer at Sogeti
 
-icon:calendar[role="blue", title="Period"] +_May 200 to January 2005_+ +
+icon:calendar[role="blue", title="Period"] +_May 2004 to January 2005_+ +
 icon:group[role="blue", title="Employee"] {link-sogeti}[Sogeti, role="external", window="_blank"] (French Software and Computing Services Company) PARIS (75) +
 icon:chevron-sign-right[role="blue", title="Customer"] {link-bouygtel}[Bouygues Telecom - Mobile network, role="external", window="_blank"] - PARIS (75) +
 
@@ -248,7 +248,7 @@ Application Servers:: JBoss AS 5, Glassfish 3, Apache Tomcat, Jetty
 
 Frameworks and Libraries:: Play Framework 2.x, Slick, AngularJS, Arquillian
 
-OS:: Linux (Ubuntu)
+OS:: GNU/Linux (Ubuntu)
 
 Databases:: MySQL, Oracle, ElasticSearch, HSQLDB
 
