@@ -114,7 +114,7 @@ Position:: *Software Developer* +
 Technologies used:: JBoss AS 5, EJB3, Hibernate, ESB, SOA, Liferay, Apache Subversion
 Frameworks:: GWT-Ext, Spring,
 Databases:: MySql
-OS:: GNULinux(CentOS)
+OS:: GNU/Linux(CentOS)
 
 '''
 
