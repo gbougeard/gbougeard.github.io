@@ -46,7 +46,7 @@ Location:: {link-addr}["Aubagne, 13, FRANCE", role="external", window="_blank"]
 
 === Integration Manager / Senior Developer at Interface Technologies
 
-icon:calendar[role="blue", title="Period"] +_July 2011 to Now (On going)_+ +
+icon:calendar[role="blue", title="Period"] +_July 2011 to Now (ongoing)_+ +
 icon:group[role="blue", title="Employee"] {link-it}[Interface Technoogiess, role="external", window="_blank"] +
 __booking and e-tourism__
 
