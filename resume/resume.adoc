@@ -1,0 +1,284 @@
+= Curriculum Vitae - Grégory Bougeard
+Grégory Bougeard <gbougeard@gmail.com>
+v1.0, July 28, 2014
+:toc2:
+:toclevels: 2
+:icons: font
+:linkattrs:
+:sectanchors:
+:sectlink:
+:experimental:
+:source-language: asciidoc
+:includedir: _includes
+// Refs
+:link-it: http://www.interface-tech.com/
+:link-sogeti: http://www.fr.sogeti.com/
+:link-gfi: http://www.gfi.fr/
+:link-bnf: http://www.bnf.fr/
+:link-tdf: http://www.tdf.fr/
+:link-bouygtel: http://www.bouyguestelecom.fr/
+:link-blog: http://gbougeard.github.io
+:link-addr: http://goo.gl/D4PR7b
+:link-adeditor-code: https://github.com/mgreau/when-websocket-met-asciidoctor
+
+
+[discrete]
+== Software Architect / Developer - Scala - Java EE / Web
+
+****
+I'm looking for a *Software Architect/Developer position* based on  +*Reactive programming*+  technologies. +
+
+'''
+Grégory is a Software Developer with *13+ years of experience*. +
+
+He is passionate about IT and +Open Source+. +
+
+****
+
+== Personal details
+
+[horizontal]
+Name:: Grégory Bougeard
+WebSite / Social Media:: http://gbougeard.github.io[gbougeard.github.io, role="external", window="_blank"] icon:twitter[link=https://twitter.com/gbougeard, role="external", window="_blank"] icon:github[1x,link=https://github.com/gbougeard role="external", window="_blank"] icon:linkedin[1x,link=http://fr.linkedin.com/pub/gr%C3%A9gory-bougeard/15/b4b/773/ role="external", window="_blank"]
+Location:: {link-addr}["Aubagne, 13, FRANCE", role="external", window="_blank"]
+
+== Professional Experience
+
+=== Integration Manager / Senior Developer at Interface Technologies
+
+icon:calendar[role="blue", title="Period"] +_July 2011 to Now (On going)_+ +
+icon:group[role="blue", title="Employee"] {link-it}[Interface Technoogiess, role="external", window="_blank"] +
+__booking and e-tourism__
+
+--
+[horizontal]
+Position:: *IT Architect - Java EE - Web - Integration Manager - DevOps* +
+Technical lead on the CI architecture
+--
+* Technical migration from CVS to Git (pré-requisite for CI)
+* Continuous Integration Architect : development and integration processes, set up CI and deployment jobs (>400) on Jenkins, code review sith Gerrit, quality with Sonar
+* Integration Manager : prepare hotfix and release versions (code review, release)
+* Work closely with the Ops : production logs watch, investigate on performance issues, security concerns (PCI-DSS certification), native packaging
+* Develop internal tools (using Play! 2 and AngularJs)
+* Load tests (Gatling)
+* Acceptance tests (Thucydides with Selenium grid)
+* Built REST Api (RESTEasy)
+* Set up an internal OAuth Server
+
+Technologies used:: 
+
+Languages and Specifications:: Scala, *Java EE 5* (BV, JPA, EJB, JAX-WS, JMS, Servlet, JSP), HTML, JavaScript, XML, Shell scripting, AsciiDoc
+Application Servers:: *JBoss AS 5.1*, Jetty, Apache HTTP Web Server
+Frameworks and Libraries:: Play! Framework 2, Slick, AngularJS, RESTEasy, Thucydides, Struts, MyBatis
+OS:: Linux (Ubuntu)
+Databases:: MySql (Percona), Elasticsearch
+Software Engineering:: DevOps, Performance and Integration Testing, Continuous Integration
+Tools:: Maven 3, Jira, Git, Asciidoctor, Gatling, Jenkins, Sonar, Nexus, Kibana, JMX
+
+'''
+
+=== Software Developer at Sogeti
+
+icon:calendar[role="blue", title="Period"] +_July 2010 to July 2011_+ +
+icon:group[role="blue", title="Employee"] {link-sogeti}[Sogeti, role="external", window="_blank"] (French Software and Computing Services Company) AIX (13) +
+icon:chevron-sign-right[role="blue", title="Customer"] [Société Forestière - Forests management, role="external", window="_blank"] - PARIS (75) +
+
+--
+[horizontal]
+Position:: *Software Developer* +
+Technical migration of a legacy app to a web app
+--
+
+* Migration of a legacy (Powerbuilder) app
+* Developed a back-office in a GIS context
+
+Technologies used:: Java EE 6, Glassfish 3, EJB3, JPA, JSF2, ArcGis, Apache Subversion
+Frameworks:: Primefaces
+Databases:: SqlServer
+OS:: Linux(CentOS)
+
+'''
+
+=== Software Developer at Sogeti
+
+icon:calendar[role="blue", title="Period"] +_January 2010 to July 2010_+ +
+icon:group[role="blue", title="Employee"] {link-sogeti}[Sogeti, role="external", window="_blank"] (French Software and Computing Services Company) TOULOUSE (31) +
+icon:chevron-sign-right[role="blue", title="Customer"] [Mairie de Toulouse - City administration intranet, role="external", window="_blank"] - TOULOUSE (31) +
+
+--
+[horizontal]
+Position:: *Software Developer* +
+--
+* Developed portlets for an intranet based on Liferay
+
+Technologies used:: JBoss AS 5, EJB3, Hibernate, ESB, SOA, Liferay, Apache Subversion
+Frameworks:: GWT-Ext, Spring,
+Databases:: MySql
+OS:: Linux(CentOS)
+
+'''
+
+=== Software Developer at Sogeti
+
+icon:calendar[role="blue", title="Period"] +_July 2008 to July 2010_+ +
+icon:group[role="blue", title="Employee"] {link-sogeti}[Sogeti, role="external", window="_blank"] (French Software and Computing Services Company) TOULOUSE (31) +
+icon:chevron-sign-right[role="blue", title="Customer"] [Sanofi-Aventis - Pharmaceutics, role="external", window="_blank"] - TOULOUSE (31) +
+
+--
+[horizontal]
+Position:: *Software Developer* +
+--
+* Developed tools for data consistency
+** data updates on several heterogenous databases (mainly through PL/SQL)
+** web application to audit data updates in different databases
+** web application to check data consistency in different heterogenous systems
+
+Technologies used:: PHP, PL/SQL, Perl
+Frameworks:: ExtJS
+Databases:: MySql, Oracle
+OS:: Windows
+
+'''
+
+=== Software Developer at Sogeti
+
+icon:calendar[role="blue", title="Period"] +_August 2005 to July 2008_+ +
+icon:group[role="blue", title="Employee"] {link-sogeti}[Sogeti, role="external", window="_blank"] (French Software and Computing Services Company) TOULOUSE (31) +
+icon:chevron-sign-right[role="blue", title="Customer"] [France Télécom - Public phone management application, role="external", window="_blank"] - TOULOUSE (31) +
+
+--
+[horizontal]
+Position:: *Software Developer* +
+--
+* Migrate a legacy app (PL/SQL + PowerBuilder) to a Web application (GWT, EJB, PureMVC, Spring, Hibernate)
+* Developed internal tools :
+** in Python : parse existing code (PL/SQL, PowerBuilder, Shell) and analyse relationships between different components (~2000 PL/SQl functions calls).
+** in PHP, MySql, ExtJS, GraphViz : Web application to display the relationships found by the Python parser
+* Set up a DB archiving program with PL/SQL
+* Technical migration from Cobol to PL/SQL
+
+
+Technologies used:: Java SE, PHP, Shell, Apache Subversion
+Frameworks:: GWT, ExtJS (Sencha)
+Databases:: Oracle 9/10, PL/SQL
+OS:: HP-UX, Linux(CentOS)
+
+'''
+
+=== Software Developer at Sogeti
+
+icon:calendar[role="blue", title="Period"] +_January 2005 to August 2005_+ +
+icon:group[role="blue", title="Employee"] {link-sogeti}[Sogeti, role="external", window="_blank"] (French Software and Computing Services Company) PARIS (75) +
+icon:chevron-sign-right[role="blue", title="Customer"] {link-tdf}[TDF - Television broadcast, role="external", window="_blank"] - PARIS (75) +
+
+--
+[horizontal]
+Position:: *Software Developer* +
+Digital Terrestrial Television
+--
+* Third Party Application Maintenance of the relay antenna management application
+* Penalty calculus formula development
+* Data migration scripts
+
+
+Technologies used:: C++
+Frameworks:: MFC
+Databases:: Oracle 9, PL/SQL
+OS:: Windows
+
+'''
+
+=== Software Developer at Sogeti
+
+icon:calendar[role="blue", title="Period"] +_May 200 to January 2005_+ +
+icon:group[role="blue", title="Employee"] {link-sogeti}[Sogeti, role="external", window="_blank"] (French Software and Computing Services Company) PARIS (75) +
+icon:chevron-sign-right[role="blue", title="Customer"] {link-bouygtel}[Bouygues Telecom - Mobile network, role="external", window="_blank"] - PARIS (75) +
+
+--
+[horizontal]
+Position:: *Software Developer* +
+Technical gateway between commercial service and mobile network
+--
+* Replace an unmaintainable templates file system by a configurable one
+
+Technologies used:: C, Pro*C , Shell
+Databases:: Oracle 8
+OS:: Unix (AIX)
+
+'''
+
+=== Software Developer at Gfi Informatique
+
+icon:calendar[role="blue", title="Period"] +_August 2001 to May 2004_+ +
+icon:group[role="blue", title="Employee"] {link-gfi}[GFI, role="external", window="_blank"] (French Software and Computing Services Company) - PARIS (75) +
+icon:chevron-sign-right[role="blue", title="Customer"] {link-bnf}[Bibliothèque Nationale de France - National library, role="external", window="_blank"] - PARIS (75) +
+__Department of books conservation and restoration__
+
+--
+[horizontal]
+Position:: C++ Software Developer +
+Development
+--
+
+* Developed a rule management application with its custom DSL
+* Developed a diagnosis tool using DSL rules
+* Performance testing
+
+Technologies:: C++
+Frameworks:: MFC
+Databases:: Oracle
+Tools:: Continuus
+OS:: Unix (AIX), Windows
+
+'''
+
+
+== Certifications
+
+Functional Programming Principles in Scala - Coursera - November 2012
+
+Principles of Reactive Programming - Coursera - December 2013
+
+== Technical Skills
+
+Languages and Specifications:: Scala, Java SE, *Java EE* (BV, JPA, EJB, CDI, JMS, WebSocket, Servlet, JSP), *HTML5*, JEE, PHP, JavaScript, XML, CSS, Shell scripting, AsciiDoc
+
+Application Servers:: JBoss AS 5, Glassfish 3, Apache Tomcat
+
+Frameworks and Libraries:: Play Framework 2.x, Slick, AngularJS, Arquillian
+
+OS:: Linux (Ubuntu)
+
+Databases:: MySQL, Oracle, ElasticSearch, HSQLDB
+
+Software Engineering:: DevOps, Unit Testing, Integration Testing, Continuous Integration
+
+Tools:: Intellij, Maven, JIRA, Git, Asciidoctor, Jenkins, Sonar, Nexus, Gatling
+
+
+
+=== Blog
+
+I wrote some blog posts on my website at http://gbougeard.github.io[gbougeard.github.io, role="external", window="_blank"] in French.
+
+
+== Languages Skills
+
+* French : native language
+* English : fluent (reading); intermediate (speaking, writing)
+* Spanish : intermediate (reading); intermediate (speaking, writing)
+
+== Education
+
+=== IUT, MONTPELLIER (34), FRANCE
+
+
+icon:calendar[role="blue", title="Period"] +_1997-1999_+ - *BTEC Higher National Diploma*  +
+Computing Science
+
+== Interests
+
+* Sport : Football (soccer)
+* TV Shows, Cinema
+* New technologies (Mars JUG addict)
+
