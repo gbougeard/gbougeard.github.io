@@ -196,7 +196,7 @@ icon:chevron-sign-right[role="blue", title="Customer"] {link-bouygtel}[Bouygues 
 
 --
 [horizontal]
-Position:: *Software Developer* +
+Position:: Software Developer +
 Technical gateway between commercial service and mobile network
 --
 * Replace an unmaintainable templates file system by a configurable one
@@ -234,16 +234,17 @@ OS:: Unix (AIX), Windows
 
 
 == Certifications
+icon:calendar[role="blue", title="Period"] +_November 2012_+ +
+Functional Programming Principles in Scala - _Coursera_
 
-Functional Programming Principles in Scala - Coursera - November 2012
-
-Principles of Reactive Programming - Coursera - December 2013
+icon:calendar[role="blue", title="Period"] +_December 2013_+ +
+Principles of Reactive Programming - _Coursera_
 
 == Technical Skills
 
 Languages and Specifications:: Scala, Java SE, *Java EE* (BV, JPA, EJB, CDI, JMS, WebSocket, Servlet, JSP), *HTML5*, JEE, PHP, JavaScript, XML, CSS, Shell scripting, AsciiDoc
 
-Application Servers:: JBoss AS 5, Glassfish 3, Apache Tomcat
+Application Servers:: JBoss AS 5, Glassfish 3, Apache Tomcat, Jetty
 
 Frameworks and Libraries:: Play Framework 2.x, Slick, AngularJS, Arquillian
 
