@@ -11,6 +11,7 @@ v1.0, July 28, 2014
 :source-language: asciidoc
 :includedir: _includes
 // Refs
+:link-teads: https://www.teads.tv/
 :link-it: http://www.interface-tech.com/
 :link-sogeti: http://www.fr.sogeti.com/
 :link-gfi: http://www.gfi.fr/
@@ -44,7 +45,7 @@ Location:: {link-addr}["Montpellier, 34, FRANCE", role="external", window="_blan
 === CI/CD Engineer at Teads.tv
 
 icon:calendar[role="blue", title="Period"] +_December 2014 to Now (ongoing)_+ +
-icon:group[role="blue", title="Employee"] {link-it}[Teads.tv, role="external", window="_blank"] +
+icon:group[role="blue", title="Employee"] {link-teads}[Teads.tv, role="external", window="_blank"] +
 __ad tech__
 
 --
