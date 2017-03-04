@@ -23,15 +23,12 @@ v1.0, July 28, 2014
 
 
 [discrete]
-== Software Architect / Developer - Scala - Java EE / Web
+== Software Architect / Developer - Scala - Java EE / Web / DevOps
 
 ****
-I'm looking for a *Software Architect/Developer position* based on  +*Reactive programming*+  technologies. +
 
 '''
-Grégory is a Software Developer with *13+ years of experience*. +
-
-He is passionate about IT and +Open Source+. +
+Grégory is a Software Developer with *15+ years of experience*. +
 
 ****
 
@@ -40,14 +37,43 @@ He is passionate about IT and +Open Source+. +
 [horizontal]
 Name:: Grégory Bougeard
 WebSite / Social Media:: http://gbougeard.github.io[gbougeard.github.io, role="external", window="_blank"] icon:twitter[link=https://twitter.com/gbougeard, role="external", window="_blank"] icon:github[1x,link=https://github.com/gbougeard role="external", window="_blank"] icon:linkedin[1x,link=http://fr.linkedin.com/pub/gr%C3%A9gory-bougeard/15/b4b/773/ role="external", window="_blank"]
-Location:: {link-addr}["Aubagne, 13, FRANCE", role="external", window="_blank"]
+Location:: {link-addr}["Montpellier, 34, FRANCE", role="external", window="_blank"]
 
 == Professional Experience
 
+=== CI/CD Engineer at Teads.tv
+
+icon:calendar[role="blue", title="Period"] +_December 2014 to Now (ongoing)_+ +
+icon:group[role="blue", title="Employee"] {link-it}[Teads.tv, role="external", window="_blank"] +
+__ad tech__
+
+--
+[horizontal]
+Position:: *CI/CD Engineer - DevOps* +
+--
+* Jenkins maintenance and industrialization (JobDSL)
+* POC Spinnaker to automate deployments
+* Tooling for pseudo canary deployments (deploy a Pull Request in production)
+* Support for dev teams on full dockerized CI
+* Develop internal tools : GitHub Pull Requests explorer, AWS AMIs explorer, Red Black deployer
+* Docker registry upgrade from v1 to v2
+
+
+Technologies used:: 
+
+Languages and Specifications:: Scala, Golang, Groovy, Shell scripting, AsciiDoc
+Frameworks and Libraries:: Spray, AngularJS, Packer
+OS:: MacOsX, CoreOS, Debian
+Software Engineering:: DevOps, Continuous Integration, Continuous Delivery
+Tools::  Docker, Jira, Git, Jenkins, Nexus, Grafana, Spinnaker
+Cloud:: AWS
+'''
+
+
 === Integration Manager / Senior Developer at Interface Technologies
 
-icon:calendar[role="blue", title="Period"] +_July 2011 to Now (ongoing)_+ +
-icon:group[role="blue", title="Employee"] {link-it}[Interface Technoogiess, role="external", window="_blank"] +
+icon:calendar[role="blue", title="Period"] +_July 2011 to November 2014_+ +
+icon:group[role="blue", title="Employee"] {link-it}[Interface Technologies, role="external", window="_blank"] +
 __booking and e-tourism__
 
 --
